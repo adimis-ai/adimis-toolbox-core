@@ -6,8 +6,8 @@ def load_requirements(filename="requirements.txt"):
         return file.read().splitlines()
 
 setup(
-    name="adimis-toolbox-core",
-    version="0.0.1",
+    name="adimis_toolbox_graph",
+    version="0.1.0",
     author="Aditya Mishra",
     author_email="aditya.mishra@adimis.in",
     description="Core utilities for the Adimis toolbox.",
